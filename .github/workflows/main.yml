@@ -21,8 +21,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v5.3.0
         with:
-          context: .
-          file: .
           push: true
           tags: |
             cgomesv/somativa2:v1
