@@ -18,7 +18,9 @@ jobs:
           context: .
           push: true
           tags: |
-            yourusername/yourimage:latest
+            cgomesv/somativa2:v1
+            cgomesv/somativa2:latest
+            
 
       # Limpeza opcional do cache para economizar espaço
       - name: Clear Docker cache
