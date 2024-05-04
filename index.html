@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+    <ul class="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
+        <li><a href="contatos.html">CONTATOS</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Login</h2>
+    <form action="processar_login.php" method="post">
+        <label for="username">Nome de usuário:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Entrar">
+    </form>
+    <p>Não tem uma conta? <a href="criar_conta.html">Crie uma aqui</a>.</p>
+</div>
+
+</body>
+</html>
